@@ -20,9 +20,9 @@ $(document).ready(function(){
 		alert ("This seat is reserved for " + seatName);
 		$currentSeat.patronName=seatName;
 		$currentSeat.hover(function(){
-			$currentSeat.children().after($currentSeat.patronName);
+			$currentSeat.children().after("<p class='patron-name'>" + $currentSeat.patronName+"</p>");
 		}, function(){
-			$currentSeat.children().remove($currentSeat.patronName)
+			$(".patron-name").remove();
 
 		});
 	});
