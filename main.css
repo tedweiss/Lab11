@@ -1,0 +1,12 @@
+.row {
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.seat {
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	border: 2px solid black;
+	display: inline-block;
+}
