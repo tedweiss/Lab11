@@ -17,3 +17,6 @@
 .seatSelected {
 	background-color: green
 }
+.seat p {
+	display: inline;
+}
