@@ -14,3 +14,6 @@
 .reservationForm {
 	display:none;
 }
+.seatSelected {
+	background-color: green
+}

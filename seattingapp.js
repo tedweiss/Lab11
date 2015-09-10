@@ -16,6 +16,7 @@ $(document).ready(function(){
 $('.seat').click(function(){
 	
 	$('.reservationForm').show();
+	$(this).toggleClass('seatSelected');
 });
 
 
