@@ -20,7 +20,7 @@ $(document).ready(function(){
 		alert ("This seat is reserved for " + seatName);
 		$currentSeat.patronName=seatName;
 		$currentSeat.hover(function(){
-			$currentSeat.children().after("<p class='patron-name'>" + $currentSeat.patronName+"</p>");
+			$currentSeat.children().after("<p class='patron-name'>" +"  "+ $currentSeat.patronName+"</p>");
 		}, function(){
 			$(".patron-name").remove();
 
